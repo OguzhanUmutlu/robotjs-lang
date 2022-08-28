@@ -1,0 +1,31 @@
+console log Clicking the left mouse button once!
+mouse click left once
+
+console log Clicking the right mouse button double!
+mouse click right double
+
+console log Waiting 5 seconds...
+wait 5
+
+console log Skipping 12th line...
+goto 13
+It will go to the 13th line and will not read this line!
+console log Hello, from 13th line!
+
+console log Tapping the button 'a' in the keyboard!
+keyboard tap a
+
+console log Typing 'Hello, world!' to the keyboard!
+keyboard type Hello, world!
+
+console log Hello, world!
+
+console log Clearing the console in 5 seconds...
+wait 5
+console clear
+
+console log Running 'myFile.rjs' file if it exists...
+run myFile.rjs
+
+console log Stopping the program, goodbye world...
+stop

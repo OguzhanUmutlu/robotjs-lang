@@ -1,0 +1,23 @@
+{
+  "name": "robotjs-lang",
+  "version": "1.0.0",
+  "description": "A language that i made for fun which lets you use robot.js easily",
+  "main": "robotjs-helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OguzhanUmutlu/robotjs-lang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OguzhanUmutlu/robotjs-lang/issues"
+  },
+  "homepage": "https://github.com/OguzhanUmutlu/robotjs-lang#readme",
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  }
+}
