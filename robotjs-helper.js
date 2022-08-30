@@ -673,6 +673,7 @@ const runCommand = async ({
                               visitLine = false, file, fileId
                           }) => {
     let line = lines[lineIndex].split(" ").map(i => i.trim()).filter(i => i).join(" ");
+    if(!line || line.startsWith("#"))return;
     const varRegex = /%var [a-zA-Z_][a-zA-Z\d_]*%/g;
     const saveRegex = /%save .+ .+%/g;
     const emptyRegex = /%%/g;
